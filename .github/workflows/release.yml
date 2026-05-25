@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+
+      - name: Build zip (exclude repo-only files)
+        run: |
+          zip -r "The-Blockheads-${{ steps.version.outputs.VERSION }}.zip" . \
+            --exclude ".git/*" \
+            --exclude ".github/*" \
+            --exclude "_docs/*" \
+            --exclude ".gitignore" \
+            --exclude "deploy.ps1" \
+            --exclude "*.md"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "The Blockheads v${{ steps.version.outputs.VERSION }}"
+          body: |
+            Resource pack for The Blockheads modpack — Minecraft 26.1.2 (pack format 84).
+
+            **Install:** drop the zip into your `.minecraft/resourcepacks/` folder,
+            or let automodpack handle it automatically.
+          files: "The-Blockheads-${{ steps.version.outputs.VERSION }}.zip"
+          draft: false
+          prerelease: false

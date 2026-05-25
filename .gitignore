@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build output
+dist/
+*.zip
+
+# Modrinth / launcher metadata (these live in the profile, not the repo)
+*.rpo

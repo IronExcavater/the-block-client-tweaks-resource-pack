@@ -1,0 +1,19 @@
+{
+	"providers": [
+		{
+			"type": "reference",
+			"id": "minecraft:include/enchantments"
+        },
+		{
+		"type":"space",
+			"advances":{
+				"󎀀":-90,
+				"󎀁":2,
+				"󎀂":-54,
+				"󎀃":54,
+				"󎀄": -30,
+				"󎀅": -131
+			}
+		}
+	]
+}

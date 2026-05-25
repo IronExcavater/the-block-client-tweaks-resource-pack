@@ -1,0 +1,16 @@
+{
+  "itemGroup.buildingBlocks": "Building Blocks",
+  "itemGroup.coloredBlocks": "Coloured Blocks",
+  "itemGroup.natural": "Natural Blocks",
+  "itemGroup.functional": "Functional Blocks",
+  "itemGroup.redstone": "Redstone Blocks",
+  "itemGroup.hotbar": "Saved Hotbars",
+  "itemGroup.search": "Search Items",
+  "itemGroup.tools": "Tools & Utilities",
+  "itemGroup.combat": "Combat",
+  "itemGroup.foodAndDrink": "Food & Drinks",
+  "itemGroup.ingredients": "Ingredients",
+  "itemGroup.spawnEggs": "Spawn Eggs",
+  "itemGroup.op": "Operator Utilities",
+  "itemGroup.inventory": "Survival Inventory"
+}

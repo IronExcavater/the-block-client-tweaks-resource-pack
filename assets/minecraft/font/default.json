@@ -1,0 +1,16 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "blockheads:include/enchantments_custom"
+        },
+        {
+            "type": "reference",
+            "id": "blockheads:include/effects_modded"
+        },
+        {
+            "type": "reference",
+            "id": "blockheads:include/enchantments_dnt"
+        }
+    ]
+}
