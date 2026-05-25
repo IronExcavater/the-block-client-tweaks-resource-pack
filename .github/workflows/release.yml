@@ -20,7 +20,7 @@ jobs:
 
       - name: Build zip (exclude repo-only files)
         run: |
-          zip -r "The Block Client Tweaks ${{ steps.version.outputs.VERSION }}.zip" . \
+          zip -r "The Block Resource Pack ${{ steps.version.outputs.VERSION }}.zip" . \
             --exclude ".git/*" \
             --exclude ".github/*" \
             --exclude "_docs/*" \
@@ -31,12 +31,12 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          name: "The Block Client Tweaks v${{ steps.version.outputs.VERSION }}"
+          name: "The Block Resource Pack v${{ steps.version.outputs.VERSION }}"
           body: |
             Resource pack for The Block modpack - Minecraft 26.1.2 (pack format 84).
 
             **Install:** drop the zip into your `.minecraft/resourcepacks/` folder,
             or let automodpack handle it automatically.
-          files: "The Block Client Tweaks ${{ steps.version.outputs.VERSION }}.zip"
+          files: "The Block Resource Pack ${{ steps.version.outputs.VERSION }}.zip"
           draft: false
           prerelease: false

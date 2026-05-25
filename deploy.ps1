@@ -6,13 +6,14 @@ $ErrorActionPreference = 'Stop'
 
 $src = $PSScriptRoot
 $serverRp = "B:\automodpack\host-modpack\main\resourcepacks"
-$zipName = "The Block Client Tweaks.zip"
+$zipName = "The Block Resource Pack.zip"
 $zipDest = Join-Path $serverRp $zipName
 
 # Remove old deployments if present
 $oldDeployments = @(
     (Join-Path $serverRp "The Blockheads"),
-    (Join-Path $serverRp "The-Blockheads.zip")
+    (Join-Path $serverRp "The-Blockheads.zip"),
+    (Join-Path $serverRp "The Block Client Tweaks.zip")
 )
 foreach ($oldDeployment in $oldDeployments) {
     if (Test-Path $oldDeployment) {
@@ -22,7 +23,7 @@ foreach ($oldDeployment in $oldDeployments) {
 }
 
 # Stage pack contents to a temp directory (same exclusions as GitHub release)
-$tmp = Join-Path $env:TEMP "the-block-client-tweaks-rp-stage"
+$tmp = Join-Path $env:TEMP "the-block-resource-pack-stage"
 if (Test-Path $tmp) { Remove-Item $tmp -Recurse -Force -Confirm:$false }
 New-Item -ItemType Directory -Path $tmp | Out-Null
 

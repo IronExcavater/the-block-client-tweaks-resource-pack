@@ -129,6 +129,15 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
+                                "model": "blockheads:item/enchantment_books/timber"
+                            },
+                            "when": {
+                                "timber_enchantment:timber": 1
+                            }
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
                                 "model": "blockheads:item/enchantment_books/nova_aerials_bane"
                             },
                             "when": {
@@ -2235,6 +2244,15 @@
                     },
                     "when": {
                         "fallingtree:chopper_shift_down": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/timber"
+                    },
+                    "when": {
+                        "timber_enchantment:timber": 1
                     }
                 },
                 {

@@ -417,6 +417,114 @@
                     "type": "minecraft:model",
                     "model": "minecraft:item/infested_potion"
                 }
+            },
+            {
+                "when": {
+                    "potion": "illagerinvasion:berserking"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/strength_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "illagerinvasion:long_berserking"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/long_strength_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "illagerinvasion:strong_berserking"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/strong_strength_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "rusticdelight:haste"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/swiftness_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "rusticdelight:long_haste"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/long_swiftness_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "rusticdelight:strong_haste"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/strong_swiftness_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "friendsandfoes:reaching"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/leaping_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "friendsandfoes:long_reaching"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/long_leaping_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "friendsandfoes:strong_reaching"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/strong_leaping_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "glow_up:revealing"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/night_vision_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "glow_up:revealing_long"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/long_night_vision_potion"
+                }
+            },
+            {
+                "when": {
+                    "potion": "glow_up:revealing_strong"
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/night_vision_potion"
+                }
             }
         ],
         "fallback": {
