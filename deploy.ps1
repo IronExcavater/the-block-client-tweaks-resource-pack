@@ -36,3 +36,4 @@ Compress-Archive -Path "$tmp\*" -DestinationPath $zipDest
 Remove-Item $tmp -Recurse -Force -Confirm:$false
 
 Write-Host "Deployed: $zipDest ($([Math]::Round((Get-Item $zipDest).Length / 1KB))KB)"
+exit 0
