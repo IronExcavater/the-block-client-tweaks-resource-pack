@@ -6,18 +6,23 @@ $ErrorActionPreference = 'Stop'
 
 $src = $PSScriptRoot
 $serverRp = "B:\automodpack\host-modpack\main\resourcepacks"
-$zipName = "The-Blockheads.zip"
+$zipName = "The Block Client Tweaks.zip"
 $zipDest = Join-Path $serverRp $zipName
 
-# Remove old directory-style deployment if present
-$oldDir = Join-Path $serverRp "The Blockheads"
-if (Test-Path $oldDir) {
-    Remove-Item $oldDir -Recurse -Force -Confirm:$false
-    Write-Host "Removed old directory deployment"
+# Remove old deployments if present
+$oldDeployments = @(
+    (Join-Path $serverRp "The Blockheads"),
+    (Join-Path $serverRp "The-Blockheads.zip")
+)
+foreach ($oldDeployment in $oldDeployments) {
+    if (Test-Path $oldDeployment) {
+        Remove-Item $oldDeployment -Recurse -Force -Confirm:$false
+        Write-Host "Removed old deployment: $oldDeployment"
+    }
 }
 
 # Stage pack contents to a temp directory (same exclusions as GitHub release)
-$tmp = Join-Path $env:TEMP "blockheads-rp-stage"
+$tmp = Join-Path $env:TEMP "the-block-client-tweaks-rp-stage"
 if (Test-Path $tmp) { Remove-Item $tmp -Recurse -Force -Confirm:$false }
 New-Item -ItemType Directory -Path $tmp | Out-Null
 
@@ -28,9 +33,20 @@ if ($exitCode -ge 8) {
     exit $exitCode
 }
 
-# Build zip
+# Build zip with forward-slash entry names for Minecraft's resource loader.
 if (Test-Path $zipDest) { Remove-Item $zipDest -Force }
-Compress-Archive -Path "$tmp\*" -DestinationPath $zipDest
+Add-Type -AssemblyName System.IO.Compression
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+$zip = [System.IO.Compression.ZipFile]::Open($zipDest, [System.IO.Compression.ZipArchiveMode]::Create)
+try {
+    Get-ChildItem -LiteralPath $tmp -File -Recurse | ForEach-Object {
+        $entryName = $_.FullName.Substring($tmp.Length + 1).Replace('\', '/')
+        [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($zip, $_.FullName, $entryName) | Out-Null
+    }
+}
+finally {
+    $zip.Dispose()
+}
 
 # Cleanup temp
 Remove-Item $tmp -Recurse -Force -Confirm:$false

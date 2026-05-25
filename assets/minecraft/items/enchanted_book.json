@@ -1,7 +1,7 @@
 {
     "model": {
         "type": "minecraft:select",
-        "property": "display_context",
+        "property": "minecraft:display_context",
         "cases": [
             {
                 "model": {
