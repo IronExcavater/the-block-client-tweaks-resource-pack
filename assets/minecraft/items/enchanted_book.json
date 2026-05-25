@@ -2123,6 +2123,573 @@
                 {
                     "model": {
                         "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/veinminer"
+                    },
+                    "when": {
+                        "veinminer_enchantment:veinminer": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/magnetic"
+                    },
+                    "when": {
+                        "magnetic_enchantment:magnetic": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/smelting"
+                    },
+                    "when": {
+                        "smelting_enchantment:smelting": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/fireproof"
+                    },
+                    "when": {
+                        "netherited:fireproof": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/backstabbing"
+                    },
+                    "when": {
+                        "farmersdelight:backstabbing": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/backstabbing"
+                    },
+                    "when": {
+                        "farmersdelight:backstabbing": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/backstabbing"
+                    },
+                    "when": {
+                        "farmersdelight:backstabbing": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/chopper"
+                    },
+                    "when": {
+                        "fallingtree:chopper": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/chopper"
+                    },
+                    "when": {
+                        "fallingtree:chopper_instantaneous": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/chopper"
+                    },
+                    "when": {
+                        "fallingtree:chopper_fall_block": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/chopper"
+                    },
+                    "when": {
+                        "fallingtree:chopper_fall_all_block": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/chopper"
+                    },
+                    "when": {
+                        "fallingtree:chopper_fall_item": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/chopper"
+                    },
+                    "when": {
+                        "fallingtree:chopper_shift_down": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                    },
+                    "when": {
+                        "nova_structures:aerials_bane": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                    },
+                    "when": {
+                        "nova_structures:aerials_bane": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                    },
+                    "when": {
+                        "nova_structures:aerials_bane": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                    },
+                    "when": {
+                        "nova_structures:aerials_bane": 4
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                    },
+                    "when": {
+                        "nova_structures:aerials_bane": 5
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_antidote"
+                    },
+                    "when": {
+                        "nova_structures:antidote": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_conductivity_curse"
+                    },
+                    "when": {
+                        "nova_structures:conductivity_curse": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_ghasted"
+                    },
+                    "when": {
+                        "nova_structures:ghasted": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_ghasted"
+                    },
+                    "when": {
+                        "nova_structures:ghasted": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_ghasted"
+                    },
+                    "when": {
+                        "nova_structures:ghasted": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_gravity"
+                    },
+                    "when": {
+                        "nova_structures:gravity": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_gravity"
+                    },
+                    "when": {
+                        "nova_structures:gravity": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_gravity"
+                    },
+                    "when": {
+                        "nova_structures:gravity": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                    },
+                    "when": {
+                        "nova_structures:hydro_veil": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                    },
+                    "when": {
+                        "nova_structures:hydro_veil": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                    },
+                    "when": {
+                        "nova_structures:hydro_veil": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                    },
+                    "when": {
+                        "nova_structures:hydro_veil": 4
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                    },
+                    "when": {
+                        "nova_structures:illagers_bane": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                    },
+                    "when": {
+                        "nova_structures:illagers_bane": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                    },
+                    "when": {
+                        "nova_structures:illagers_bane": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                    },
+                    "when": {
+                        "nova_structures:illagers_bane": 4
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                    },
+                    "when": {
+                        "nova_structures:illagers_bane": 5
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_tri_shot"
+                    },
+                    "when": {
+                        "nova_structures:multishot": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_outreach"
+                    },
+                    "when": {
+                        "nova_structures:outreach": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_outreach"
+                    },
+                    "when": {
+                        "nova_structures:outreach": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_outreach"
+                    },
+                    "when": {
+                        "nova_structures:outreach": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_outreach"
+                    },
+                    "when": {
+                        "nova_structures:outreach": 4
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_photosynthesis"
+                    },
+                    "when": {
+                        "nova_structures:photosynthesis": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                    },
+                    "when": {
+                        "nova_structures:piercing": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                    },
+                    "when": {
+                        "nova_structures:piercing": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                    },
+                    "when": {
+                        "nova_structures:piercing": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                    },
+                    "when": {
+                        "nova_structures:piercing": 4
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_might"
+                    },
+                    "when": {
+                        "nova_structures:power": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_might"
+                    },
+                    "when": {
+                        "nova_structures:power": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_might"
+                    },
+                    "when": {
+                        "nova_structures:power": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_might"
+                    },
+                    "when": {
+                        "nova_structures:power": 4
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_might"
+                    },
+                    "when": {
+                        "nova_structures:power": 5
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_spiteful"
+                    },
+                    "when": {
+                        "nova_structures:spiteful": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_spiteful"
+                    },
+                    "when": {
+                        "nova_structures:spiteful": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_spiteful"
+                    },
+                    "when": {
+                        "nova_structures:spiteful": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_swift_soar"
+                    },
+                    "when": {
+                        "nova_structures:swift_soar": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_swift_soar"
+                    },
+                    "when": {
+                        "nova_structures:swift_soar": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_swift_soar"
+                    },
+                    "when": {
+                        "nova_structures:swift_soar": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_traveler"
+                    },
+                    "when": {
+                        "nova_structures:traveler": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_traveler"
+                    },
+                    "when": {
+                        "nova_structures:traveler": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_traveler"
+                    },
+                    "when": {
+                        "nova_structures:traveler": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_wax_wings"
+                    },
+                    "when": {
+                        "nova_structures:wax_wings": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_wither_coated"
+                    },
+                    "when": {
+                        "nova_structures:wither_coated": 1
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_wither_coated"
+                    },
+                    "when": {
+                        "nova_structures:wither_coated": 2
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/nova_wither_coated"
+                    },
+                    "when": {
+                        "nova_structures:wither_coated": 3
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
                         "model": "tooltrims:item/linear_template"
                     },
                     "when": {

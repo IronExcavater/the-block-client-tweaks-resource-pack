@@ -1,24 +1,38 @@
-# deploy.ps1 — sync the working repo to the server automodpack resourcepack slot
+# deploy.ps1 — build a zip and place it in the server automodpack resourcepacks slot
 # Usage: .\deploy.ps1
 # Run from the repo root after any change you want players to receive on next login.
 
 $ErrorActionPreference = 'Stop'
 
 $src = $PSScriptRoot
-$dst = "B:\automodpack\host-modpack\main\resourcepacks\The Blockheads"
+$serverRp = "B:\automodpack\host-modpack\main\resourcepacks"
+$zipName = "The-Blockheads.zip"
+$zipDest = Join-Path $serverRp $zipName
 
-if (-not (Test-Path $dst)) {
-    New-Item -ItemType Directory -Path $dst | Out-Null
+# Remove old directory-style deployment if present
+$oldDir = Join-Path $serverRp "The Blockheads"
+if (Test-Path $oldDir) {
+    Remove-Item $oldDir -Recurse -Force -Confirm:$false
+    Write-Host "Removed old directory deployment"
 }
 
-# Mirror src → dst, excluding git internals, docs, and repo-only files
-robocopy $src $dst /MIR /XD ".git" "_docs" ".github" /XF ".gitignore" "deploy.ps1" "*.md" | Out-Null
+# Stage pack contents to a temp directory (same exclusions as GitHub release)
+$tmp = Join-Path $env:TEMP "blockheads-rp-stage"
+if (Test-Path $tmp) { Remove-Item $tmp -Recurse -Force -Confirm:$false }
+New-Item -ItemType Directory -Path $tmp | Out-Null
 
+robocopy $src $tmp /MIR /XD ".git" "_docs" ".github" /XF ".gitignore" "deploy.ps1" "*.md" | Out-Null
 $exitCode = $LASTEXITCODE
-# robocopy exit codes < 8 are success (0=no change, 1=copied, 2=extra, 3=both, 4=mismatch, 5-7=combos)
 if ($exitCode -ge 8) {
     Write-Error "robocopy failed with exit code $exitCode"
     exit $exitCode
 }
 
-Write-Host "Deployed to automodpack server ($dst)"
+# Build zip
+if (Test-Path $zipDest) { Remove-Item $zipDest -Force }
+Compress-Archive -Path "$tmp\*" -DestinationPath $zipDest
+
+# Cleanup temp
+Remove-Item $tmp -Recurse -Force -Confirm:$false
+
+Write-Host "Deployed: $zipDest ($([Math]::Round((Get-Item $zipDest).Length / 1KB))KB)"
