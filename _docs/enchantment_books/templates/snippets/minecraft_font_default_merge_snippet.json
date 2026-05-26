@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "reference",
-      "id": "blockheads:include/enchantments_custom"
+      "id": "blockheads:include/enchantments_modded"
     }
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "blockheads:item/potions/long_reaching_potion"
+  }
+}

@@ -48,33 +48,6 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/backstabbing"
-                            },
-                            "when": {
-                                "farmersdelight:backstabbing": 1
-                            }
-                        },
-                        {
-                            "model": {
-                                "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/backstabbing"
-                            },
-                            "when": {
-                                "farmersdelight:backstabbing": 2
-                            }
-                        },
-                        {
-                            "model": {
-                                "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/backstabbing"
-                            },
-                            "when": {
-                                "farmersdelight:backstabbing": 3
-                            }
-                        },
-                        {
-                            "model": {
-                                "type": "minecraft:model",
                                 "model": "blockheads:item/enchantment_books/chopper"
                             },
                             "when": {
@@ -138,7 +111,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                                "model": "blockheads:item/enchantment_books/aerials_bane"
                             },
                             "when": {
                                 "nova_structures:aerials_bane": 1
@@ -147,7 +120,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                                "model": "blockheads:item/enchantment_books/aerials_bane"
                             },
                             "when": {
                                 "nova_structures:aerials_bane": 2
@@ -156,7 +129,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                                "model": "blockheads:item/enchantment_books/aerials_bane"
                             },
                             "when": {
                                 "nova_structures:aerials_bane": 3
@@ -165,7 +138,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                                "model": "blockheads:item/enchantment_books/aerials_bane"
                             },
                             "when": {
                                 "nova_structures:aerials_bane": 4
@@ -174,7 +147,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                                "model": "blockheads:item/enchantment_books/aerials_bane"
                             },
                             "when": {
                                 "nova_structures:aerials_bane": 5
@@ -183,7 +156,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_antidote"
+                                "model": "blockheads:item/enchantment_books/antidote"
                             },
                             "when": {
                                 "nova_structures:antidote": 1
@@ -192,7 +165,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_conductivity_curse"
+                                "model": "blockheads:item/enchantment_books/conductivity_curse"
                             },
                             "when": {
                                 "nova_structures:conductivity_curse": 1
@@ -201,7 +174,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_ghasted"
+                                "model": "blockheads:item/enchantment_books/ghasted"
                             },
                             "when": {
                                 "nova_structures:ghasted": 1
@@ -210,7 +183,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_ghasted"
+                                "model": "blockheads:item/enchantment_books/ghasted"
                             },
                             "when": {
                                 "nova_structures:ghasted": 2
@@ -219,7 +192,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_ghasted"
+                                "model": "blockheads:item/enchantment_books/ghasted"
                             },
                             "when": {
                                 "nova_structures:ghasted": 3
@@ -228,7 +201,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_gravity"
+                                "model": "blockheads:item/enchantment_books/gravity"
                             },
                             "when": {
                                 "nova_structures:gravity": 1
@@ -237,7 +210,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_gravity"
+                                "model": "blockheads:item/enchantment_books/gravity"
                             },
                             "when": {
                                 "nova_structures:gravity": 2
@@ -246,7 +219,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_gravity"
+                                "model": "blockheads:item/enchantment_books/gravity"
                             },
                             "when": {
                                 "nova_structures:gravity": 3
@@ -255,7 +228,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                                "model": "blockheads:item/enchantment_books/hydro_veil"
                             },
                             "when": {
                                 "nova_structures:hydro_veil": 1
@@ -264,7 +237,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                                "model": "blockheads:item/enchantment_books/hydro_veil"
                             },
                             "when": {
                                 "nova_structures:hydro_veil": 2
@@ -273,7 +246,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                                "model": "blockheads:item/enchantment_books/hydro_veil"
                             },
                             "when": {
                                 "nova_structures:hydro_veil": 3
@@ -282,7 +255,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                                "model": "blockheads:item/enchantment_books/hydro_veil"
                             },
                             "when": {
                                 "nova_structures:hydro_veil": 4
@@ -291,7 +264,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                                "model": "blockheads:item/enchantment_books/illagers_bane"
                             },
                             "when": {
                                 "nova_structures:illagers_bane": 1
@@ -300,7 +273,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                                "model": "blockheads:item/enchantment_books/illagers_bane"
                             },
                             "when": {
                                 "nova_structures:illagers_bane": 2
@@ -309,7 +282,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                                "model": "blockheads:item/enchantment_books/illagers_bane"
                             },
                             "when": {
                                 "nova_structures:illagers_bane": 3
@@ -318,7 +291,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                                "model": "blockheads:item/enchantment_books/illagers_bane"
                             },
                             "when": {
                                 "nova_structures:illagers_bane": 4
@@ -327,7 +300,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                                "model": "blockheads:item/enchantment_books/illagers_bane"
                             },
                             "when": {
                                 "nova_structures:illagers_bane": 5
@@ -336,7 +309,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_tri_shot"
+                                "model": "blockheads:item/enchantment_books/tri_shot"
                             },
                             "when": {
                                 "nova_structures:multishot": 1
@@ -345,7 +318,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_outreach"
+                                "model": "blockheads:item/enchantment_books/outreach"
                             },
                             "when": {
                                 "nova_structures:outreach": 1
@@ -354,7 +327,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_outreach"
+                                "model": "blockheads:item/enchantment_books/outreach"
                             },
                             "when": {
                                 "nova_structures:outreach": 2
@@ -363,7 +336,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_outreach"
+                                "model": "blockheads:item/enchantment_books/outreach"
                             },
                             "when": {
                                 "nova_structures:outreach": 3
@@ -372,7 +345,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_outreach"
+                                "model": "blockheads:item/enchantment_books/outreach"
                             },
                             "when": {
                                 "nova_structures:outreach": 4
@@ -381,7 +354,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_photosynthesis"
+                                "model": "blockheads:item/enchantment_books/photosynthesis"
                             },
                             "when": {
                                 "nova_structures:photosynthesis": 1
@@ -390,7 +363,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                                "model": "blockheads:item/enchantment_books/blowthrough"
                             },
                             "when": {
                                 "nova_structures:piercing": 1
@@ -399,7 +372,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                                "model": "blockheads:item/enchantment_books/blowthrough"
                             },
                             "when": {
                                 "nova_structures:piercing": 2
@@ -408,7 +381,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                                "model": "blockheads:item/enchantment_books/blowthrough"
                             },
                             "when": {
                                 "nova_structures:piercing": 3
@@ -417,7 +390,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                                "model": "blockheads:item/enchantment_books/blowthrough"
                             },
                             "when": {
                                 "nova_structures:piercing": 4
@@ -426,7 +399,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_might"
+                                "model": "blockheads:item/enchantment_books/might"
                             },
                             "when": {
                                 "nova_structures:power": 1
@@ -435,7 +408,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_might"
+                                "model": "blockheads:item/enchantment_books/might"
                             },
                             "when": {
                                 "nova_structures:power": 2
@@ -444,7 +417,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_might"
+                                "model": "blockheads:item/enchantment_books/might"
                             },
                             "when": {
                                 "nova_structures:power": 3
@@ -453,7 +426,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_might"
+                                "model": "blockheads:item/enchantment_books/might"
                             },
                             "when": {
                                 "nova_structures:power": 4
@@ -462,7 +435,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_might"
+                                "model": "blockheads:item/enchantment_books/might"
                             },
                             "when": {
                                 "nova_structures:power": 5
@@ -471,7 +444,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_spiteful"
+                                "model": "blockheads:item/enchantment_books/spiteful"
                             },
                             "when": {
                                 "nova_structures:spiteful": 1
@@ -480,7 +453,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_spiteful"
+                                "model": "blockheads:item/enchantment_books/spiteful"
                             },
                             "when": {
                                 "nova_structures:spiteful": 2
@@ -489,7 +462,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_spiteful"
+                                "model": "blockheads:item/enchantment_books/spiteful"
                             },
                             "when": {
                                 "nova_structures:spiteful": 3
@@ -498,7 +471,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_swift_soar"
+                                "model": "blockheads:item/enchantment_books/swift_soar"
                             },
                             "when": {
                                 "nova_structures:swift_soar": 1
@@ -507,7 +480,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_swift_soar"
+                                "model": "blockheads:item/enchantment_books/swift_soar"
                             },
                             "when": {
                                 "nova_structures:swift_soar": 2
@@ -516,7 +489,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_swift_soar"
+                                "model": "blockheads:item/enchantment_books/swift_soar"
                             },
                             "when": {
                                 "nova_structures:swift_soar": 3
@@ -525,7 +498,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_traveler"
+                                "model": "blockheads:item/enchantment_books/traveler"
                             },
                             "when": {
                                 "nova_structures:traveler": 1
@@ -534,7 +507,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_traveler"
+                                "model": "blockheads:item/enchantment_books/traveler"
                             },
                             "when": {
                                 "nova_structures:traveler": 2
@@ -543,7 +516,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_traveler"
+                                "model": "blockheads:item/enchantment_books/traveler"
                             },
                             "when": {
                                 "nova_structures:traveler": 3
@@ -552,7 +525,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_wax_wings"
+                                "model": "blockheads:item/enchantment_books/wax_wings"
                             },
                             "when": {
                                 "nova_structures:wax_wings": 1
@@ -561,7 +534,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_wither_coated"
+                                "model": "blockheads:item/enchantment_books/wither_coated"
                             },
                             "when": {
                                 "nova_structures:wither_coated": 1
@@ -570,7 +543,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_wither_coated"
+                                "model": "blockheads:item/enchantment_books/wither_coated"
                             },
                             "when": {
                                 "nova_structures:wither_coated": 2
@@ -579,7 +552,7 @@
                         {
                             "model": {
                                 "type": "minecraft:model",
-                                "model": "blockheads:item/enchantment_books/nova_wither_coated"
+                                "model": "blockheads:item/enchantment_books/wither_coated"
                             },
                             "when": {
                                 "nova_structures:wither_coated": 3
@@ -2168,33 +2141,6 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/backstabbing"
-                    },
-                    "when": {
-                        "farmersdelight:backstabbing": 1
-                    }
-                },
-                {
-                    "model": {
-                        "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/backstabbing"
-                    },
-                    "when": {
-                        "farmersdelight:backstabbing": 2
-                    }
-                },
-                {
-                    "model": {
-                        "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/backstabbing"
-                    },
-                    "when": {
-                        "farmersdelight:backstabbing": 3
-                    }
-                },
-                {
-                    "model": {
-                        "type": "minecraft:model",
                         "model": "blockheads:item/enchantment_books/chopper"
                     },
                     "when": {
@@ -2258,7 +2204,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                        "model": "blockheads:item/enchantment_books/aerials_bane"
                     },
                     "when": {
                         "nova_structures:aerials_bane": 1
@@ -2267,7 +2213,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                        "model": "blockheads:item/enchantment_books/aerials_bane"
                     },
                     "when": {
                         "nova_structures:aerials_bane": 2
@@ -2276,7 +2222,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                        "model": "blockheads:item/enchantment_books/aerials_bane"
                     },
                     "when": {
                         "nova_structures:aerials_bane": 3
@@ -2285,7 +2231,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                        "model": "blockheads:item/enchantment_books/aerials_bane"
                     },
                     "when": {
                         "nova_structures:aerials_bane": 4
@@ -2294,7 +2240,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_aerials_bane"
+                        "model": "blockheads:item/enchantment_books/aerials_bane"
                     },
                     "when": {
                         "nova_structures:aerials_bane": 5
@@ -2303,7 +2249,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_antidote"
+                        "model": "blockheads:item/enchantment_books/antidote"
                     },
                     "when": {
                         "nova_structures:antidote": 1
@@ -2312,7 +2258,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_conductivity_curse"
+                        "model": "blockheads:item/enchantment_books/conductivity_curse"
                     },
                     "when": {
                         "nova_structures:conductivity_curse": 1
@@ -2321,7 +2267,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_ghasted"
+                        "model": "blockheads:item/enchantment_books/ghasted"
                     },
                     "when": {
                         "nova_structures:ghasted": 1
@@ -2330,7 +2276,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_ghasted"
+                        "model": "blockheads:item/enchantment_books/ghasted"
                     },
                     "when": {
                         "nova_structures:ghasted": 2
@@ -2339,7 +2285,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_ghasted"
+                        "model": "blockheads:item/enchantment_books/ghasted"
                     },
                     "when": {
                         "nova_structures:ghasted": 3
@@ -2348,7 +2294,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_gravity"
+                        "model": "blockheads:item/enchantment_books/gravity"
                     },
                     "when": {
                         "nova_structures:gravity": 1
@@ -2357,7 +2303,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_gravity"
+                        "model": "blockheads:item/enchantment_books/gravity"
                     },
                     "when": {
                         "nova_structures:gravity": 2
@@ -2366,7 +2312,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_gravity"
+                        "model": "blockheads:item/enchantment_books/gravity"
                     },
                     "when": {
                         "nova_structures:gravity": 3
@@ -2375,7 +2321,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                        "model": "blockheads:item/enchantment_books/hydro_veil"
                     },
                     "when": {
                         "nova_structures:hydro_veil": 1
@@ -2384,7 +2330,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                        "model": "blockheads:item/enchantment_books/hydro_veil"
                     },
                     "when": {
                         "nova_structures:hydro_veil": 2
@@ -2393,7 +2339,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                        "model": "blockheads:item/enchantment_books/hydro_veil"
                     },
                     "when": {
                         "nova_structures:hydro_veil": 3
@@ -2402,7 +2348,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_hydro_veil"
+                        "model": "blockheads:item/enchantment_books/hydro_veil"
                     },
                     "when": {
                         "nova_structures:hydro_veil": 4
@@ -2411,7 +2357,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                        "model": "blockheads:item/enchantment_books/illagers_bane"
                     },
                     "when": {
                         "nova_structures:illagers_bane": 1
@@ -2420,7 +2366,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                        "model": "blockheads:item/enchantment_books/illagers_bane"
                     },
                     "when": {
                         "nova_structures:illagers_bane": 2
@@ -2429,7 +2375,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                        "model": "blockheads:item/enchantment_books/illagers_bane"
                     },
                     "when": {
                         "nova_structures:illagers_bane": 3
@@ -2438,7 +2384,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                        "model": "blockheads:item/enchantment_books/illagers_bane"
                     },
                     "when": {
                         "nova_structures:illagers_bane": 4
@@ -2447,7 +2393,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_illagers_bane"
+                        "model": "blockheads:item/enchantment_books/illagers_bane"
                     },
                     "when": {
                         "nova_structures:illagers_bane": 5
@@ -2456,7 +2402,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_tri_shot"
+                        "model": "blockheads:item/enchantment_books/tri_shot"
                     },
                     "when": {
                         "nova_structures:multishot": 1
@@ -2465,7 +2411,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_outreach"
+                        "model": "blockheads:item/enchantment_books/outreach"
                     },
                     "when": {
                         "nova_structures:outreach": 1
@@ -2474,7 +2420,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_outreach"
+                        "model": "blockheads:item/enchantment_books/outreach"
                     },
                     "when": {
                         "nova_structures:outreach": 2
@@ -2483,7 +2429,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_outreach"
+                        "model": "blockheads:item/enchantment_books/outreach"
                     },
                     "when": {
                         "nova_structures:outreach": 3
@@ -2492,7 +2438,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_outreach"
+                        "model": "blockheads:item/enchantment_books/outreach"
                     },
                     "when": {
                         "nova_structures:outreach": 4
@@ -2501,7 +2447,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_photosynthesis"
+                        "model": "blockheads:item/enchantment_books/photosynthesis"
                     },
                     "when": {
                         "nova_structures:photosynthesis": 1
@@ -2510,7 +2456,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                        "model": "blockheads:item/enchantment_books/blowthrough"
                     },
                     "when": {
                         "nova_structures:piercing": 1
@@ -2519,7 +2465,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                        "model": "blockheads:item/enchantment_books/blowthrough"
                     },
                     "when": {
                         "nova_structures:piercing": 2
@@ -2528,7 +2474,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                        "model": "blockheads:item/enchantment_books/blowthrough"
                     },
                     "when": {
                         "nova_structures:piercing": 3
@@ -2537,7 +2483,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_blowthrough"
+                        "model": "blockheads:item/enchantment_books/blowthrough"
                     },
                     "when": {
                         "nova_structures:piercing": 4
@@ -2546,7 +2492,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_might"
+                        "model": "blockheads:item/enchantment_books/might"
                     },
                     "when": {
                         "nova_structures:power": 1
@@ -2555,7 +2501,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_might"
+                        "model": "blockheads:item/enchantment_books/might"
                     },
                     "when": {
                         "nova_structures:power": 2
@@ -2564,7 +2510,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_might"
+                        "model": "blockheads:item/enchantment_books/might"
                     },
                     "when": {
                         "nova_structures:power": 3
@@ -2573,7 +2519,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_might"
+                        "model": "blockheads:item/enchantment_books/might"
                     },
                     "when": {
                         "nova_structures:power": 4
@@ -2582,7 +2528,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_might"
+                        "model": "blockheads:item/enchantment_books/might"
                     },
                     "when": {
                         "nova_structures:power": 5
@@ -2591,7 +2537,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_spiteful"
+                        "model": "blockheads:item/enchantment_books/spiteful"
                     },
                     "when": {
                         "nova_structures:spiteful": 1
@@ -2600,7 +2546,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_spiteful"
+                        "model": "blockheads:item/enchantment_books/spiteful"
                     },
                     "when": {
                         "nova_structures:spiteful": 2
@@ -2609,7 +2555,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_spiteful"
+                        "model": "blockheads:item/enchantment_books/spiteful"
                     },
                     "when": {
                         "nova_structures:spiteful": 3
@@ -2618,7 +2564,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_swift_soar"
+                        "model": "blockheads:item/enchantment_books/swift_soar"
                     },
                     "when": {
                         "nova_structures:swift_soar": 1
@@ -2627,7 +2573,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_swift_soar"
+                        "model": "blockheads:item/enchantment_books/swift_soar"
                     },
                     "when": {
                         "nova_structures:swift_soar": 2
@@ -2636,7 +2582,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_swift_soar"
+                        "model": "blockheads:item/enchantment_books/swift_soar"
                     },
                     "when": {
                         "nova_structures:swift_soar": 3
@@ -2645,7 +2591,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_traveler"
+                        "model": "blockheads:item/enchantment_books/traveler"
                     },
                     "when": {
                         "nova_structures:traveler": 1
@@ -2654,7 +2600,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_traveler"
+                        "model": "blockheads:item/enchantment_books/traveler"
                     },
                     "when": {
                         "nova_structures:traveler": 2
@@ -2663,7 +2609,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_traveler"
+                        "model": "blockheads:item/enchantment_books/traveler"
                     },
                     "when": {
                         "nova_structures:traveler": 3
@@ -2672,7 +2618,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_wax_wings"
+                        "model": "blockheads:item/enchantment_books/wax_wings"
                     },
                     "when": {
                         "nova_structures:wax_wings": 1
@@ -2681,7 +2627,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_wither_coated"
+                        "model": "blockheads:item/enchantment_books/wither_coated"
                     },
                     "when": {
                         "nova_structures:wither_coated": 1
@@ -2690,7 +2636,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_wither_coated"
+                        "model": "blockheads:item/enchantment_books/wither_coated"
                     },
                     "when": {
                         "nova_structures:wither_coated": 2
@@ -2699,7 +2645,7 @@
                 {
                     "model": {
                         "type": "minecraft:model",
-                        "model": "blockheads:item/enchantment_books/nova_wither_coated"
+                        "model": "blockheads:item/enchantment_books/wither_coated"
                     },
                     "when": {
                         "nova_structures:wither_coated": 3

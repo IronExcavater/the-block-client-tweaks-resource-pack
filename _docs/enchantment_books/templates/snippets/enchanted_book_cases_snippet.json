@@ -4,10 +4,6 @@
     "model": "blockheads:item/enchantment_books/veinminer"
   },
   {
-    "enchantments": "farmersdelight:backstabbing",
-    "model": "blockheads:item/enchantment_books/backstabbing"
-  },
-  {
     "enchantments": "netherited:fireproof",
     "model": "blockheads:item/enchantment_books/fireproof"
   },

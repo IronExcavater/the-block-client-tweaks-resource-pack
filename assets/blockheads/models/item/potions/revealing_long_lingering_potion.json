@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "blockheads:item/potions/revealing_long_lingering_potion"
+  }
+}

@@ -1,13 +1,13 @@
 {
-    "providers": [
-        {
-            "type": "bitmap",
-            "file": "blockheads:tooltip/magic/effects_modded.png",
-            "ascent": 8,
-            "height": 10,
-            "chars": [
-                "\uDBA2\uDC00\uDBA2\uDC01\uDBA2\uDC02\uDBA2\uDC03\uDBA2\uDC04\uDBA2\uDC05\uDBA2\uDC06\uDBA2\uDC07"
-            ]
-        }
-    ]
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "blockheads:tooltip/magic/effects_modded.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "󸠀󸠁󸠂󸠃"
+      ]
+    }
+  ]
 }
