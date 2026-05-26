@@ -1,4 +1,4 @@
-﻿{
+{
     "itemGroup.buildingBlocks": "Building Blocks",
     "itemGroup.coloredBlocks": "Colored Blocks",
     "itemGroup.natural": "Natural Blocks",
@@ -17,7 +17,6 @@
     "enchantment.veinminer_enchantment.veinminer": "󸐀 Veinminer",
     "enchantment.magnetic_enchantment.magnetic": "󸐂 Magnetic",
     "enchantment.smelting_enchantment.smelting": "󸐃 Smelting",
-    "enchantment.timber_enchantment.timber": "󸐄 Timber",
     "enchantment.dnt.aerials_bane": "󸐅 Aerial's Bane",
     "enchantment.dnt.antidote": "󸐆 Antidote",
     "enchantment.dnt.conductivity_curse": "󸐇 Curse of Conductivity",
@@ -39,7 +38,6 @@
     "enchantment.veinminer_enchantment.veinminer.desc": "Mines all connected ore blocks in a vein at once.",
     "enchantment.magnetic_enchantment.magnetic.desc": "Pulls nearby dropped items and blocks directly into the inventory.",
     "enchantment.smelting_enchantment.smelting.desc": "Automatically smelts mined block drops, such as ore into ingots and cobblestone into stone.",
-    "enchantment.timber_enchantment.timber.desc": "Automatically fells entire trees when any log is broken with an axe.",
     "enchantment.dnt.aerials_bane.desc": "Increases damage dealt to flying or airborne targets.",
     "enchantment.dnt.antidote.desc": "Prevents Poison and Wither damage by redirecting it into chestplate durability.",
     "enchantment.dnt.conductivity_curse.desc": "Curses the bearer with a chance to attract lightning during thunderstorms.",
