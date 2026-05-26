@@ -1,6 +1,6 @@
-{
+﻿{
   "parent": "item/generated",
   "textures": {
-    "layer0": "blockheads:item/enchantment_books/swift_soar"
+    "layer0": "minecraft:item/depth_strider"
   }
 }

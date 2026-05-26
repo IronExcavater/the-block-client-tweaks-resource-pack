@@ -1,6 +1,6 @@
-{
+﻿{
   "parent": "item/generated",
   "textures": {
-    "layer0": "blockheads:item/enchantment_books/traveler"
+    "layer0": "minecraft:item/soul_speed"
   }
 }

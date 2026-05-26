@@ -1,6 +1,6 @@
-{
+﻿{
   "parent": "item/generated",
   "textures": {
-    "layer0": "blockheads:item/enchantment_books/hydro_veil"
+    "layer0": "minecraft:item/respiration"
   }
 }
