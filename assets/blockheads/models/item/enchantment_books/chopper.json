@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "blockheads:item/enchantment_books/fireproof"
+    "layer0": "blockheads:item/enchantment_books/chopper"
   }
 }

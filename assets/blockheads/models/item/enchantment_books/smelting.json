@@ -1,6 +1,6 @@
-﻿{
-  "parent": "item/generated",
+{
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/fire_aspect"
+    "layer0": "blockheads:item/enchantment_books/smelting"
   }
 }
