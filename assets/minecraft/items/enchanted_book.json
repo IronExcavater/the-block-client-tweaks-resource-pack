@@ -1,0 +1,78 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:stored_enchantments",
+    "value": [
+      {
+        "enchantments": "tooltrims:_a_linear_template",
+        "levels": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    ],
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "tooltrims:item/linear_template"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:stored_enchantments",
+      "value": [
+        {
+          "enchantments": "tooltrims:_b_tracks_template",
+          "levels": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "tooltrims:item/tracks_template"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:stored_enchantments",
+        "value": [
+          {
+            "enchantments": "tooltrims:_c_charge_template",
+            "levels": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "tooltrims:item/charge_template"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:stored_enchantments",
+          "value": [
+            {
+              "enchantments": "tooltrims:_d_frost_template",
+              "levels": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "tooltrims:item/frost_template"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_book"
+          }
+        }
+      }
+    }
+  }
+}
