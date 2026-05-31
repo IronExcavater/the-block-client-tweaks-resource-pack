@@ -68,8 +68,116 @@
             "model": "tooltrims:item/frost_template"
           },
           "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/enchanted_book"
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:stored_enchantments",
+            "value": [
+              {
+                "enchantments": "veinminer_enchantment:veinminer",
+                "levels": {
+                  "min": 1,
+                  "max": 99
+                }
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "blockheads:item/enchantment_books/veinminer"
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:stored_enchantments",
+              "value": [
+                {
+                  "enchantments": "magnetic_enchantment:magnetic",
+                  "levels": {
+                    "min": 1,
+                    "max": 99
+                  }
+                }
+              ],
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "blockheads:item/enchantment_books/magnetic"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:stored_enchantments",
+                "value": [
+                  {
+                    "enchantments": "smelting_enchantment:smelting",
+                    "levels": {
+                      "min": 1,
+                      "max": 99
+                    }
+                  }
+                ],
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "blockheads:item/enchantment_books/smelting"
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:stored_enchantments",
+                  "value": [
+                    {
+                      "enchantments": "netherited:fireproof",
+                      "levels": {
+                        "min": 1,
+                        "max": 99
+                      }
+                    }
+                  ],
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "blockheads:item/enchantment_books/fireproof"
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:stored_enchantments",
+                    "value": [
+                      {
+                        "enchantments": "fallingtree:chopper",
+                        "levels": {
+                          "min": 1,
+                          "max": 99
+                        }
+                      }
+                    ],
+                    "on_true": {
+                      "type": "minecraft:model",
+                      "model": "blockheads:item/enchantment_books/chopper"
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:stored_enchantments",
+                      "value": [
+                        {
+                          "enchantments": "timber_enchantment:timber",
+                          "levels": {
+                            "min": 1,
+                            "max": 99
+                          }
+                        }
+                      ],
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "blockheads:item/enchantment_books/chopper"
+                      },
+                      "on_false": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/enchanted_book"
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
